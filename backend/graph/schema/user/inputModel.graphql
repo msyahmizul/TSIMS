@@ -1,0 +1,16 @@
+input InputNewUserDataInformation{
+    icCard: String!,
+    firstName:String!,
+    lastName:String!,
+    gender: Gender!,
+    dob: String!,
+    address: String!,
+    city: String!,
+    postcode: String!
+    state: String!,
+}
+input InputUserLogin{
+    username: String!,
+    password: String!,
+}
+

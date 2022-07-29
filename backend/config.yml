@@ -1,0 +1,41 @@
+appwrite:
+  apiKey: 0e8ac8b62c9cddfa915c9e00bafb2b203003e9191934307af5727a98ea972c13615c219c8e6f5da17eef9fdca49afae3b32c5e4ea8bbabf423af4568fdb11ad5b8f4854266fc3a98e6009305d457f6500e0f2cac83267a6558e11577c1887c834caacf633b43974584380fbbe8fa20f15da14a99cf6dfdb9172ca826853cfb02
+  projectID: TSIMS
+  endPoint: https://s01.local.jfrx.cf:5001/v1
+  UserColId: 62579a405a0bea7abe30
+  UserDataColId: 6256e87ce6155940ab1a
+  UserBucketDataId: 6258f43b8f7c36f5e38d
+
+agent:
+  government:
+    apiKey: QYyQxVInTclHk1jJCwPw1sRu+pjAW5a6G8Razf443emGx6u6wL2e0W9kmaGY3Yp5
+    seed: I5xiCuz4zJomZRNZdAj4dpkKXXQTtaNE
+    key: BWeWkrxbqFmYMM5aGHf1SwYsjCAxLn1J7nEybHrnvpqF
+    did: LHYo5MpgGxp2VdeCSrkeC4
+    admin:
+      url: http://s01.local.jfrx.cf:3001
+      key: QYyQxVInTclHk1jJCwPw1sRu+pjAW5a6G8Razf443emGx6u6wL2e0W9kmaGY3Yp5
+    inboundURL: http://s01.local.jfrx.cf:2001
+  multiTenant:
+    apiKey: QYyQxVInTclHk1jJCwPw1sRu+pjAW5a6G8Razf443emGx6u6wL2e0W9kmaGY3Yp5
+    seed: N2FVw9JjmdbNHeLrt2axOPwkzhj8GNy0
+    key: FdDphaNwtjdxvafQTp4wxZ7C1x6o3RkJsuEKEesDoasC
+    did: TqGmdhEDDcTpMzrTMvtPYY
+    admin:
+      url: http://s01.local.jfrx.cf:3000
+      key: QYyQxVInTclHk1jJCwPw1sRu+pjAW5a6G8Razf443emGx6u6wL2e0W9kmaGY3Yp5
+    inboundURL: http://s01.local.jfrx.cf:2000
+  banking:
+    seed: qvzyAFCh6YJEXZHBg4rIrI+o/IGEx4rx
+    key: DBNiSgyFQWZwd5fVkSEeD4X2FBsc31vuY8oydhhTR2Sf
+    did: PM26otMJK3DSJyrwmzUoKK
+  carrier:
+    seed: lwnA0BshdAGN4tHBfMKxFcf51/5DC/4h
+    key: 7Dj539urPAFyoyLcmKSY8JnsJqaN4jNuGJF3K48jq5Q4
+    did: CQqj2HRphzy6iQpWoyfmze
+  university:
+    seed: 5bBlL/UQHRTmhj21ZX1pFs6ZYKetKnjQ
+    key: 3YRKXyTJqJYZPuBqpDNZ4MT8iPMSrfJ8JwmWSyWdY5kb
+    did: 5fUgX4xpnCAUVfbW5A1xxK
+
+jwtPrivateKey: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACAwoMsVUthSw5QbG1p/b/e+baH3oAItc0j+VzoLEQ6A7wAAAJi8fl/vvH5f7wAAAAtzc2gtZWQyNTUxOQAAACAwoMsVUthSw5QbG1p/b/e+baH3oAItc0j+VzoLEQ6A7wAAAEB2OsIw9mzzez24Xp7OLVEwuCNuEmgZI37rixkhf5zMRTCgyxVS2FLDlBsbWn9v975tofegAi1zSP5XOgsRDoDvAAAAD2ppcm9ASkZSWC1MUC0wMQECAwQFBg==

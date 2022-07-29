@@ -1,0 +1,24 @@
+type ApplicationResult{
+    status : ApplicationStatus!
+    message: String!
+    did: String
+}
+type UserApplicationDetail{
+    applicantStatus: ApplicationStatus!
+    username :String!
+    files:[String!]!
+    rejectMessage: String!
+    userDetail: UserDataInformation!
+}
+type UserApplicantStatus{
+    username: String!
+    name:String!
+    applicantStatus: ApplicationStatus!
+    did: String
+}
+
+enum ApplicationStatus {
+    PENDING
+    APPROVE
+    REJECTED
+}

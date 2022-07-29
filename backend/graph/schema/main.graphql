@@ -1,0 +1,26 @@
+scalar Upload
+type Query {
+    #  User
+    loginUser(username: String!, password: String!):String! # Give JWT Token
+    getUserData(token:String!):User!
+    checkApplicationUser(token:String!):UserCurrentApplicationStatus!
+
+    # Admin
+    getUserApplication(token: String!,username: String!): UserApplicationDetail!
+    getAllUserApplications(token: String!):[UserApplicantStatus]
+}
+
+type Mutation {
+    #  User
+    signUpUser(user:InputUserLogin):String # Give JWT Token
+    createDataUser(token: String!,user:InputNewUserDataInformation!):UserDataInformation!
+    uploadDocumentUser(token: String!, file: Upload!):String!
+    generateUserDID(token: String!):User!
+    getWalletToken(token: String!):String!
+
+    # Admin
+    updateApplicationStatus(token: String!,username: String!,status: ApplicationStatus!, rejectMessage: String!):User!
+    deleteUser(token: String!,username:String!):Boolean!
+
+
+}

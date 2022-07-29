@@ -1,0 +1,32 @@
+name: mobile
+description: Trusted Shared Identity Management System
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 0.0.1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+dependencies:
+  flutter_riverpod: ^2.0.0-dev.9
+  http: ^0.13.4
+  qr_flutter: ^4.0.0
+  beamer: ^1.4.1+1
+
+
+  flutter:
+    sdk: flutter
+  hive: ^2.2.1
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.10
+  file_picker: ^4.0.0
+  http_parser: ^4.0.1
+  graphql: ^5.1.1
+  gql: ^0.13.1
+  mobile_scanner: ^2.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+
+flutter:
+  uses-material-design: true

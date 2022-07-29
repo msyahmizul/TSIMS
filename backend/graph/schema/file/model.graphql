@@ -1,0 +1,6 @@
+type UserFile{
+    id: String!,
+    extension: String!,
+    name: String!,
+    size:String!,
+}

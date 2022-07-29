@@ -1,0 +1,33 @@
+type UserDataInformation{
+    userID:String!,
+    icCard: String!,
+    firstName: String!,
+    lastName: String!,
+    gender: Gender!,
+    dob: String!,
+    address: String!,
+    city: String!,
+    state: String!,
+    postcode:String!
+}
+type User{
+    username:String!
+    password:String!
+    user_type:String!
+    fileID: [String!]
+    applicantStatus: ApplicationStatus
+    did: String
+    walletID: String
+    rejectMessage: String!
+    data:UserDataInformation
+}
+type UserCurrentApplicationStatus{
+    rejectMessage: String!
+    status: ApplicationStatus!
+
+}
+
+enum Gender{
+    MALE,
+    FEMALE
+}
